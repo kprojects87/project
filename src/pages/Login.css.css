@@ -1,0 +1,52 @@
+.login-page {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    font-family: 'Poppins', sans-serif;
+}
+
+    .login-page h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 26px;
+        color: #222;
+    }
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    .login-form input {
+        padding: 12px 14px;
+        font-size: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: #f9f9f9;
+    }
+
+    .login-form button {
+        padding: 12px;
+        font-size: 16px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+.success-msg {
+    color: green;
+    text-align: center;
+    font-size: 18px;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+}

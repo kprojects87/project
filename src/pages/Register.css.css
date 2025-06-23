@@ -1,0 +1,56 @@
+.register-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    font-family: 'Poppins', sans-serif;
+}
+
+    .register-page h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 28px;
+        color: #222;
+    }
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+    .form-row input {
+        flex: 1;
+        padding: 12px 14px;
+        font-size: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: #f9f9f9;
+        color: #333;
+    }
+
+.register-form button {
+    align-self: center;
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.success-msg {
+    color: green;
+    text-align: center;
+    font-size: 18px;
+}
